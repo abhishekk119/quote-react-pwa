@@ -48,7 +48,7 @@ function App() {
       {isLoading ? (
         <div className="wrapper">
           <div className="container">
-            <p style={{color: 'white'}}>Loading...</p>
+            <p style={{color: 'white'}}>Loading Quotes...</p>
           </div>
         </div>
       ) : (
