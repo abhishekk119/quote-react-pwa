@@ -7,11 +7,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100vh; /* Ensure wrapper takes full viewport height */
 }
 
 .container {
-  min-height: 300px; /* Increased height to accommodate quotes */
+  height: 200px;
   width: 450px;
   border: 1px solid #1a1a1a;
   background-color: #1a1a1a;
@@ -19,32 +18,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between; /* Distribute space evenly */
-  padding: 25px; /* Increased padding */
-  margin-top: 0; /* Remove top margin since wrapper has min-height */
+  justify-content: center;
+  padding: 15px;
+  margin-top: 100px;
 }
 
-.quote-text {
+.container p {
   color: white;
   text-align: center;
-  min-height: 120px; /* Fixed height for quote area */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-}
-
-.author-text {
-  color: white;
-  text-align: center;
-  min-height: 30px; /* Fixed height for author area */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin: 0;
-  font-style: italic;
+  min-height: 50px;
 }
 
 .newqtbtn {
@@ -54,7 +36,7 @@ body {
   border: 1px solid white;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .newqtbtn:active {
