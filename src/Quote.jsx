@@ -2,10 +2,8 @@ function Quotes({ Quotes, Author, updatequotes }) {
   return (
     <div className="wrapper">
       <div className="container">
-        <div className="quote">
-        <p>{Quotes}</p>
-        <p>{Author}</p>
-        </div> 
+        <p className="quote-text">{Quotes}</p>
+        <p className="author-text">{Author}</p>
         <button className="newqtbtn" onClick={updatequotes}>
           New Quote
         </button>
