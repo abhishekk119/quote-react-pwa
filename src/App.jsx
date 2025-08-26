@@ -43,7 +43,7 @@ function App() {
     <>
       <Quotes
         Quotes={quotes}
-        Author={`— ${author}`}
+        Author={author ? `— ${author}` : ""} 
         updatequotes={updateQuotes}
       />
     </>
