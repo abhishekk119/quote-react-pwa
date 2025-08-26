@@ -42,3 +42,8 @@ body {
 .newqtbtn:active {
   transform: scale(1.1);
 }
+
+.newqtbtn {
+  -webkit-tap-highlight-color: transparent; /* For iOS/Safari */
+  tap-highlight-color: transparent; /* Standard property */
+}
