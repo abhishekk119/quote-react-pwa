@@ -38,6 +38,11 @@ body {
   margin-top: 25px;
 }
 
+.newqtbtn {
+  -webkit-tap-highlight-color: transparent; /* For iOS/Safari */
+  tap-highlight-color: transparent; /* Standard property */
+}
+
 .newqtbtn:active {
   transform: scale(1.1);
 }
