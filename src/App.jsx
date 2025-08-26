@@ -45,19 +45,11 @@ function App() {
 
   return (
     <>
-      {isLoading ? (
-        <div className="wrapper">
-          <div className="container">
-            <p style={{color: 'white'}}>Loading Quotes...</p>
-          </div>
-        </div>
-      ) : (
-        <Quotes
-          Quotes={quotes}
-          Author={`— ${author}`}
-          updatequotes={updateQuotes}
-        />
-      )}
+      <Quotes
+        Quotes={isLoading ? "Loading..." : quotes}
+        Author={isLoading ? "" : `— ${author}`}
+        updatequotes={updateQuotes}
+      />
     </>
   );
 }
