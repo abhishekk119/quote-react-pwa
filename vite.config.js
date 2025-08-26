@@ -12,8 +12,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       injectRegister: "auto", // auto-injects the SW register script
       manifest: {
-        name: "My Todo App",
-        short_name: "TodoApp",
+        name: "My Quote App",
+        short_name: "Quotes",
         start_url: ".", // see Step 7 for GitHub Pages
         scope: ".", // see Step 7 for GitHub Pages
         display: "fullscreen", // removes browser UI/URL bar when installed
