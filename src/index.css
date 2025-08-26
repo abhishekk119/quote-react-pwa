@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 200px;
+  width: 450px;
+  border: 1px solid #1a1a1a;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin-top: 100px;
+}
+
+.container p {
+  color: white;
+  text-align: center;
+}
+
+.newqtbtn {
+  height: 35px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.newqtbtn:active {
+  transform: scale(1.1);
+}
